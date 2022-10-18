@@ -1,6 +1,7 @@
 ## [SECURE_FLAG](https://developer.android.com/reference/android/view/WindowManager.LayoutParams#FLAG_SECURE)
 
-Android で画面録画を禁止するには、[WindowManager.LayoutParams#SECURE_FLAG](https://developer.android.com/reference/android/view/WindowManager.LayoutParams#FLAG_SECURE) を設定してあげるのが最も簡単で正確です。
+Android で画面録画を禁止するには、[WindowManager.LayoutParams#SECURE_FLAG](https://developer.android.com/reference/android/view/WindowManager.LayoutParams#FLAG_SECURE) を設定してあげるのが最も簡単で正確です。  
+(API 1 で追加。)
 
 ### フラグ操作方法
 

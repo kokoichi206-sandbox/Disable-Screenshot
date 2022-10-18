@@ -19,6 +19,9 @@ iOS においては、[UITextField#isSecureTextEntry](https://developer.apple.co
 実は、`UITextField#isSecureTextEntry` を活用することで、**全体の**スクリーンショットを防止する事が可能です。  
 （sublayer を他に持っていない時）
 
+Secure な TextField を sublayer として下敷きにしておくことで、うまくやっているものと思われます。  
+（難しい。。。）
+
 ```swift
 class ViewController: UIViewController {
     ...
