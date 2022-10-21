@@ -2,6 +2,8 @@
 
 各プラットフォームにおけるスクショ・キャプチャ防止機能の実装方法を調査した。
 
+[はてなブログ](https://koko206.hatenablog.com/entry/2022/10/19/000834)
+
 ## Android
 
 - FLAG_SECURE を window に設定したら一発
